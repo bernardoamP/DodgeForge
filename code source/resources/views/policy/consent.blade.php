@@ -29,7 +29,7 @@
         <p class="text-light">Notre site n'utilise pas des cookies donc pas de soucis de ce coté la</p>
 
         <h2 class="text-with-shadow">Contact</h2>
-        <p class="text-light">Si vous avez des questions concernant notre politique de confidentialité, vous pouvez nous contacter sur la page administration</p>
+        <p class="text-light">Si vous avez des questions concernant notre politique de confidentialité, vous pouvez essayer d'appeler le 118 218 et demander Michel</p>
     </div>
 
     <div class="d-flex justify-content-center align-items-center m-4 ">

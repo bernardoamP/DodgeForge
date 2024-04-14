@@ -92,8 +92,12 @@ class User extends Authenticatable
         return $this->role->label === 'administrateur';
     }
 
-    public function isJohnDoe()
-    {
+    /**
+     * Détermine si l'utilisateur est un administrateur.
+     *
+     * @return bool
+     */
+    public function isJohnDoe(){
         return $this->email === 'john@doe.com';
     }
 

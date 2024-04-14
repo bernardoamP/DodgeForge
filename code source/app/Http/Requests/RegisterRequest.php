@@ -27,7 +27,7 @@ class RegisterRequest extends FormRequest
             'name'=>['required','string', 'min:3'],
             'first_name'=>['required','string', 'min:3'],
             'email'=>['required', 'email', 'unique:users,email'],
-            'password' =>['required','min:8','regex:/[0-9]/','regex:/[@$!%*#?&]/', 'confirmed'],
+            'password' =>['required','min:8','regex:/[0-9]/','regex:/[A-Z]/','regex:/\W/', 'confirmed'],
             'formation_id'=>['required', 'exists:formations,id']
         ];
     }

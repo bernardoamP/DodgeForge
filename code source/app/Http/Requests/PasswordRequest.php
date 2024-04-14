@@ -24,7 +24,7 @@ class PasswordRequest extends FormRequest
     public function rules(): array
     {
         return [
-            'password' =>['required','min:8','regex:/[0-9]/','regex:/[@$!%*#?&]/', 'confirmed']
+            'password' =>['required','min:8','regex:/[0-9]/','regex:/\W/', 'confirmed']
         ];
     }
 }

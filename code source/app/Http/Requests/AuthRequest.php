@@ -25,7 +25,7 @@ class AuthRequest extends FormRequest
     {
         return [
             'email'=>['required','email',],
-            'password' =>['required','min:8','regex:/[0-9]/','regex:/[@$!%*#?&]/'],
+            'password' =>['required','min:8','regex:/[0-9]/','regex:/[A-Z]/','regex:/\W/'],
         ];
     }
 }

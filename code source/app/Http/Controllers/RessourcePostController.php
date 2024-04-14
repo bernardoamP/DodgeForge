@@ -5,7 +5,6 @@ namespace App\Http\Controllers;
 use App\Models\RessourcePost;
 use App\Models\Category;
 use App\Http\Requests\RessourcePostRequest;
-use App\Models\User;
 use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Facades\Auth;
 
