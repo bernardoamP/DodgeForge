@@ -1,0 +1,111 @@
+html, body {
+    height: 100vh;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.degrade-diagonal {
+    background: linear-gradient(to bottom right, #000000, #3533CD);
+    width: 100vw;
+    height: 100vh;
+}
+
+.degrade-diagonal-simple {
+    background: linear-gradient(to bottom right, #000000, #3533CD);
+}
+
+.degrade-diagonal-rouge {
+    background: linear-gradient(to bottom right, #003f91, #5396E7);
+}
+
+.degrade-diagonal-danger {
+    background: linear-gradient(to bottom right, #910101, #cf0606);
+}
+
+.degrade-diagonal-info {
+    background: linear-gradient(to bottom right, #037a0d, #60cf06);
+}
+
+.headernav{
+    background-color: rgba(255, 255, 255, 0);
+    height: 10vh;
+    z-index: 1000;
+}
+
+.headernav .navbar-nav .nav-link{
+    color: #fff;
+    text-shadow: 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
+.bg-nav{
+    background: linear-gradient(to bottom right, #004AAD, #CB6CE6);
+}
+@media (min-width: 576px) {
+    .bg-nav{
+        background: none;
+    }
+}
+
+.cadreblanc {
+    border: 1px solid #fff;
+}
+
+.cadreblancbas{
+    border-bottom: 1px solid #fff;
+}
+
+.scoll-content{
+    height: 78vh;
+    overflow-y : auto;
+}
+
+.scroll-content::-webkit-scrollbar {
+    width: 10px;
+}
+
+.scroll-content::-webkit-scrollbar-thumb {
+    background-color: #3498db;
+    border-radius: 5px;
+}
+
+.scroll-content::-webkit-scrollbar-track {
+    background-color: #ecf0f1;
+}
+
+.scroll-content::-webkit-scrollbar-thumb:hover {
+    background-color: #2980b9;
+}
+
+.scroll-autors{
+    height: 35vh;
+    overflow-y : auto;
+}
+
+.separator-gradient{
+    background: linear-gradient(to bottom right, #9C9990, #BADEFC);
+}
+
+.gradient-text {
+    background: linear-gradient(to bottom right, #000, #fff);
+    background-clip: text;
+}
+
+.text-with-shadow {
+    color: #9DACFF;
+    text-shadow: 4px 4px 8px #004AAD;
+}
+
+.cadre-input{
+    background: transparent;
+    color: white
+}
+
+.cadreblanclight {
+    border: 2px solid rgba(255, 255, 255, 0.8);
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8);
+}
+
